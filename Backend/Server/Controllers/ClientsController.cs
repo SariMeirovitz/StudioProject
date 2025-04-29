@@ -1,4 +1,5 @@
 ﻿using BL.Api;
+using BL.Models;
 using Dal.Api;
 using Dal.models;
 using Dal.Services;
@@ -23,8 +24,9 @@ namespace StudioServer.Controllers
             var listClient = clientService.GetAllForManager();
             return Ok(listClient);
         }
-        [HttpGet("id")]
-        public ActionResult<List<Client>> GetById(int id)
+       
+        [HttpGet("{id}")]
+        public ActionResult<Client> GetById(int id)
         {
             var Client = clientService.GetByIdForManager(id);
             return Ok(Client);

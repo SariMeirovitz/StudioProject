@@ -1,6 +1,7 @@
 import React, { useEffect } from 'react';
 import { useSelector, useDispatch } from 'react-redux';
 import { fetchDataAsyncAction } from '../redux/thunk';
+import AddClient from './AddClient';
 // ודא שהנתיב נכון
 
 const ClientsList = () => {
@@ -28,6 +29,7 @@ const ClientsList = () => {
     return (
         <div>
             <h1>Clients</h1>
+           
             <ul>
                 {clients.map((client, index) => (
                     <li key={client.id || index}> {/* השתמש ב-index רק אם אין id ייחודי */}

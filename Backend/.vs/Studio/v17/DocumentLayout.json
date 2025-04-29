@@ -1,41 +1,57 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\User\\Desktop\\Handesaim\\ProjectC#\\StudioProject\\Backend\\",
+  "WorkspaceRootPath": "H:\\ProjectC#\\StudioProject\\Backend\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{94A00438-D900-48F3-890F-22F2BEEDE4A3}|Dal\\Dal.csproj|c:\\users\\user\\desktop\\handesaim\\projectc#\\studioproject\\backend\\dal\\models\\databasemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{94A00438-D900-48F3-890F-22F2BEEDE4A3}|Dal\\Dal.csproj|solutionrelative:dal\\models\\databasemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{BA827593-04BE-496C-AC56-66EDDCD8561C}|BL\\BL.csproj|h:\\projectc#\\studioproject\\backend\\bl\\models\\clientformanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BA827593-04BE-496C-AC56-66EDDCD8561C}|BL\\BL.csproj|solutionrelative:bl\\models\\clientformanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BA827593-04BE-496C-AC56-66EDDCD8561C}|BL\\BL.csproj|c:\\users\\user\\desktop\\handesaim\\projectc#\\studioproject\\backend\\bl\\services\\blclientservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BA827593-04BE-496C-AC56-66EDDCD8561C}|BL\\BL.csproj|solutionrelative:bl\\services\\blclientservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{AD4DAA2C-2722-4156-8DB7-3FE8878C2477}|Server\\Server.csproj|c:\\users\\user\\desktop\\handesaim\\projectc#\\studioproject\\backend\\server\\controllers\\clientscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AD4DAA2C-2722-4156-8DB7-3FE8878C2477}|Server\\Server.csproj|solutionrelative:server\\controllers\\clientscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BA827593-04BE-496C-AC56-66EDDCD8561C}|BL\\BL.csproj|c:\\users\\user\\desktop\\handesaim\\projectc#\\studioproject\\backend\\bl\\api\\iblclient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{BA827593-04BE-496C-AC56-66EDDCD8561C}|BL\\BL.csproj|h:\\projectc#\\studioproject\\backend\\bl\\api\\iblclient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{BA827593-04BE-496C-AC56-66EDDCD8561C}|BL\\BL.csproj|solutionrelative:bl\\api\\iblclient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{94A00438-D900-48F3-890F-22F2BEEDE4A3}|Dal\\Dal.csproj|c:\\users\\user\\desktop\\handesaim\\projectc#\\studioproject\\backend\\dal\\services\\clientservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{BA827593-04BE-496C-AC56-66EDDCD8561C}|BL\\BL.csproj|h:\\projectc#\\studioproject\\backend\\bl\\api\\ibl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BA827593-04BE-496C-AC56-66EDDCD8561C}|BL\\BL.csproj|solutionrelative:bl\\api\\ibl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{94A00438-D900-48F3-890F-22F2BEEDE4A3}|Dal\\Dal.csproj|h:\\projectc#\\studioproject\\backend\\dal\\services\\clientservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{94A00438-D900-48F3-890F-22F2BEEDE4A3}|Dal\\Dal.csproj|solutionrelative:dal\\services\\clientservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{94A00438-D900-48F3-890F-22F2BEEDE4A3}|Dal\\Dal.csproj|c:\\users\\user\\desktop\\handesaim\\projectc#\\studioproject\\backend\\dal\\models\\client.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{94A00438-D900-48F3-890F-22F2BEEDE4A3}|Dal\\Dal.csproj|h:\\projectc#\\studioproject\\backend\\dal\\models\\client.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{94A00438-D900-48F3-890F-22F2BEEDE4A3}|Dal\\Dal.csproj|solutionrelative:dal\\models\\client.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BA827593-04BE-496C-AC56-66EDDCD8561C}|BL\\BL.csproj|c:\\users\\user\\desktop\\handesaim\\projectc#\\studioproject\\backend\\bl\\models\\workerformanger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{94A00438-D900-48F3-890F-22F2BEEDE4A3}|Dal\\Dal.csproj|h:\\projectc#\\studioproject\\backend\\dal\\models\\databasemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{94A00438-D900-48F3-890F-22F2BEEDE4A3}|Dal\\Dal.csproj|solutionrelative:dal\\models\\databasemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AD4DAA2C-2722-4156-8DB7-3FE8878C2477}|Server\\Server.csproj|h:\\projectc#\\studioproject\\backend\\server\\controllers\\clientscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AD4DAA2C-2722-4156-8DB7-3FE8878C2477}|Server\\Server.csproj|solutionrelative:server\\controllers\\clientscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BA827593-04BE-496C-AC56-66EDDCD8561C}|BL\\BL.csproj|h:\\projectc#\\studioproject\\backend\\bl\\services\\blclientservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BA827593-04BE-496C-AC56-66EDDCD8561C}|BL\\BL.csproj|solutionrelative:bl\\services\\blclientservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AD4DAA2C-2722-4156-8DB7-3FE8878C2477}|Server\\Server.csproj|h:\\projectc#\\studioproject\\backend\\server\\startup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AD4DAA2C-2722-4156-8DB7-3FE8878C2477}|Server\\Server.csproj|solutionrelative:server\\startup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AD4DAA2C-2722-4156-8DB7-3FE8878C2477}|Server\\Server.csproj|h:\\projectc#\\studioproject\\backend\\server\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{AD4DAA2C-2722-4156-8DB7-3FE8878C2477}|Server\\Server.csproj|solutionrelative:server\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BA827593-04BE-496C-AC56-66EDDCD8561C}|BL\\BL.csproj|h:\\projectc#\\studioproject\\backend\\bl\\models\\workerformanger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{BA827593-04BE-496C-AC56-66EDDCD8561C}|BL\\BL.csproj|solutionrelative:bl\\models\\workerformanger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BA827593-04BE-496C-AC56-66EDDCD8561C}|BL\\BL.csproj|c:\\users\\user\\desktop\\handesaim\\projectc#\\studioproject\\backend\\bl\\blmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{BA827593-04BE-496C-AC56-66EDDCD8561C}|BL\\BL.csproj|h:\\projectc#\\studioproject\\backend\\bl\\blmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{BA827593-04BE-496C-AC56-66EDDCD8561C}|BL\\BL.csproj|solutionrelative:bl\\blmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{94A00438-D900-48F3-890F-22F2BEEDE4A3}|Dal\\Dal.csproj|c:\\users\\user\\desktop\\handesaim\\projectc#\\studioproject\\backend\\dal\\dal.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "AbsoluteMoniker": "D:0:0:{94A00438-D900-48F3-890F-22F2BEEDE4A3}|Dal\\Dal.csproj|h:\\projectc#\\studioproject\\backend\\dal\\dal.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
       "RelativeMoniker": "D:0:0:{94A00438-D900-48F3-890F-22F2BEEDE4A3}|Dal\\Dal.csproj|solutionrelative:dal\\dal.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     }
   ],
@@ -54,120 +70,160 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "BLManager.cs",
-              "DocumentMoniker": "C:\\Users\\User\\Desktop\\Handesaim\\ProjectC#\\StudioProject\\Backend\\BL\\BLManager.cs",
-              "RelativeDocumentMoniker": "BL\\BLManager.cs",
-              "ToolTip": "C:\\Users\\User\\Desktop\\Handesaim\\ProjectC#\\StudioProject\\Backend\\BL\\BLManager.cs",
-              "RelativeToolTip": "BL\\BLManager.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 2,
+              "Title": "IBL.cs",
+              "DocumentMoniker": "H:\\ProjectC#\\StudioProject\\Backend\\BL\\Api\\IBL.cs",
+              "RelativeDocumentMoniker": "BL\\Api\\IBL.cs",
+              "ToolTip": "H:\\ProjectC#\\StudioProject\\Backend\\BL\\Api\\IBL.cs",
+              "RelativeToolTip": "BL\\Api\\IBL.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAUAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-28T22:35:53.885Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-29T13:47:44.082Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "BLManager.cs",
+              "DocumentMoniker": "H:\\ProjectC#\\StudioProject\\Backend\\BL\\BLManager.cs",
+              "RelativeDocumentMoniker": "BL\\BLManager.cs",
+              "ToolTip": "H:\\ProjectC#\\StudioProject\\Backend\\BL\\BLManager.cs",
+              "RelativeToolTip": "BL\\BLManager.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-28T22:35:53.885Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ClientService.cs",
+              "DocumentMoniker": "H:\\ProjectC#\\StudioProject\\Backend\\Dal\\Services\\ClientService.cs",
+              "RelativeDocumentMoniker": "Dal\\Services\\ClientService.cs",
+              "ToolTip": "H:\\ProjectC#\\StudioProject\\Backend\\Dal\\Services\\ClientService.cs",
+              "RelativeToolTip": "Dal\\Services\\ClientService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABsAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-28T22:24:35.888Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Dal.csproj",
+              "DocumentMoniker": "H:\\ProjectC#\\StudioProject\\Backend\\Dal\\Dal.csproj",
+              "RelativeDocumentMoniker": "Dal\\Dal.csproj",
+              "ToolTip": "H:\\ProjectC#\\StudioProject\\Backend\\Dal\\Dal.csproj",
+              "RelativeToolTip": "Dal\\Dal.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-04-28T22:22:58.754Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ClientsController.cs",
+              "DocumentMoniker": "H:\\ProjectC#\\StudioProject\\Backend\\Server\\Controllers\\ClientsController.cs",
+              "RelativeDocumentMoniker": "Server\\Controllers\\ClientsController.cs",
+              "ToolTip": "H:\\ProjectC#\\StudioProject\\Backend\\Server\\Controllers\\ClientsController.cs",
+              "RelativeToolTip": "Server\\Controllers\\ClientsController.cs",
+              "ViewState": "AQIAABkAAAAAAAAAAAAowCsAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-28T22:21:54.665Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "ClientService.cs",
-              "DocumentMoniker": "C:\\Users\\User\\Desktop\\Handesaim\\ProjectC#\\StudioProject\\Backend\\Dal\\Services\\ClientService.cs",
-              "RelativeDocumentMoniker": "Dal\\Services\\ClientService.cs",
-              "ToolTip": "C:\\Users\\User\\Desktop\\Handesaim\\ProjectC#\\StudioProject\\Backend\\Dal\\Services\\ClientService.cs",
-              "RelativeToolTip": "Dal\\Services\\ClientService.cs",
-              "ViewState": "AgIAADIAAAAAAAAAAAAIwEEAAAAjAAAAAAAAAA==",
+              "Title": "Client.cs",
+              "DocumentMoniker": "H:\\ProjectC#\\StudioProject\\Backend\\Dal\\models\\Client.cs",
+              "RelativeDocumentMoniker": "Dal\\models\\Client.cs",
+              "ToolTip": "H:\\ProjectC#\\StudioProject\\Backend\\Dal\\models\\Client.cs",
+              "RelativeToolTip": "Dal\\models\\Client.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAA3AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-28T22:24:35.888Z",
+              "WhenOpened": "2025-04-28T22:15:16.384Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "IBLClient.cs",
+              "DocumentMoniker": "H:\\ProjectC#\\StudioProject\\Backend\\BL\\Api\\IBLClient.cs",
+              "RelativeDocumentMoniker": "BL\\Api\\IBLClient.cs",
+              "ToolTip": "H:\\ProjectC#\\StudioProject\\Backend\\BL\\Api\\IBLClient.cs",
+              "RelativeToolTip": "BL\\Api\\IBLClient.cs",
+              "ViewState": "AQIAAAIAAAAAAAAAAAAUwAsAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-28T22:12:10.046Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "BLClientService.cs",
+              "DocumentMoniker": "H:\\ProjectC#\\StudioProject\\Backend\\BL\\Services\\BLClientService.cs",
+              "RelativeDocumentMoniker": "BL\\Services\\BLClientService.cs",
+              "ToolTip": "H:\\ProjectC#\\StudioProject\\Backend\\BL\\Services\\BLClientService.cs",
+              "RelativeToolTip": "BL\\Services\\BLClientService.cs",
+              "ViewState": "AQIAACoAAAAAAAAAAAAQwDsAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-28T22:12:05.349Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ClientForManager.cs",
+              "DocumentMoniker": "H:\\ProjectC#\\StudioProject\\Backend\\BL\\Models\\ClientForManager.cs",
+              "RelativeDocumentMoniker": "BL\\Models\\ClientForManager.cs",
+              "ToolTip": "H:\\ProjectC#\\StudioProject\\Backend\\BL\\Models\\ClientForManager.cs",
+              "RelativeToolTip": "BL\\Models\\ClientForManager.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-29T09:24:09.155Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 8,
-              "Title": "Dal",
-              "DocumentMoniker": "C:\\Users\\User\\Desktop\\Handesaim\\ProjectC#\\StudioProject\\Backend\\Dal\\Dal.csproj",
-              "RelativeDocumentMoniker": "Dal\\Dal.csproj",
-              "ToolTip": "C:\\Users\\User\\Desktop\\Handesaim\\ProjectC#\\StudioProject\\Backend\\Dal\\Dal.csproj*",
-              "RelativeToolTip": "Dal\\Dal.csproj*",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-04-28T22:22:58.754Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "ClientsController.cs",
-              "DocumentMoniker": "C:\\Users\\User\\Desktop\\Handesaim\\ProjectC#\\StudioProject\\Backend\\Server\\Controllers\\ClientsController.cs",
-              "RelativeDocumentMoniker": "Server\\Controllers\\ClientsController.cs",
-              "ToolTip": "C:\\Users\\User\\Desktop\\Handesaim\\ProjectC#\\StudioProject\\Backend\\Server\\Controllers\\ClientsController.cs",
-              "RelativeToolTip": "Server\\Controllers\\ClientsController.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAADEAAAAcAAAAAAAAAA==",
+              "Title": "Startup.cs",
+              "DocumentMoniker": "H:\\ProjectC#\\StudioProject\\Backend\\Server\\Startup.cs",
+              "RelativeDocumentMoniker": "Server\\Startup.cs",
+              "ToolTip": "H:\\ProjectC#\\StudioProject\\Backend\\Server\\Startup.cs",
+              "RelativeToolTip": "Server\\Startup.cs",
+              "ViewState": "AQIAAAsAAAAAAAAAAAAQwBoAAAAFAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-28T22:21:54.665Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-29T10:38:48.205Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 5,
-              "Title": "Client.cs",
-              "DocumentMoniker": "C:\\Users\\User\\Desktop\\Handesaim\\ProjectC#\\StudioProject\\Backend\\Dal\\models\\Client.cs",
-              "RelativeDocumentMoniker": "Dal\\models\\Client.cs",
-              "ToolTip": "C:\\Users\\User\\Desktop\\Handesaim\\ProjectC#\\StudioProject\\Backend\\Dal\\models\\Client.cs",
-              "RelativeToolTip": "Dal\\models\\Client.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAUAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-28T22:15:16.384Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "IBLClient.cs",
-              "DocumentMoniker": "C:\\Users\\User\\Desktop\\Handesaim\\ProjectC#\\StudioProject\\Backend\\BL\\Api\\IBLClient.cs",
-              "RelativeDocumentMoniker": "BL\\Api\\IBLClient.cs",
-              "ToolTip": "C:\\Users\\User\\Desktop\\Handesaim\\ProjectC#\\StudioProject\\Backend\\BL\\Api\\IBLClient.cs",
-              "RelativeToolTip": "BL\\Api\\IBLClient.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAwA8AAAAUAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-28T22:12:10.046Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "BLClientService.cs",
-              "DocumentMoniker": "C:\\Users\\User\\Desktop\\Handesaim\\ProjectC#\\StudioProject\\Backend\\BL\\Services\\BLClientService.cs",
-              "RelativeDocumentMoniker": "BL\\Services\\BLClientService.cs",
-              "ToolTip": "C:\\Users\\User\\Desktop\\Handesaim\\ProjectC#\\StudioProject\\Backend\\BL\\Services\\BLClientService.cs",
-              "RelativeToolTip": "BL\\Services\\BLClientService.cs",
-              "ViewState": "AgIAADUAAAAAAAAAAAAuwEAAAAAMAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-28T22:12:05.349Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "WorkerForManger.cs",
-              "DocumentMoniker": "C:\\Users\\User\\Desktop\\Handesaim\\ProjectC#\\StudioProject\\Backend\\BL\\Models\\WorkerForManger.cs",
-              "RelativeDocumentMoniker": "BL\\Models\\WorkerForManger.cs",
-              "ToolTip": "C:\\Users\\User\\Desktop\\Handesaim\\ProjectC#\\StudioProject\\Backend\\BL\\Models\\WorkerForManger.cs",
-              "RelativeToolTip": "BL\\Models\\WorkerForManger.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAKAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-28T22:11:31.645Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
               "Title": "DatabaseManager.cs",
-              "DocumentMoniker": "C:\\Users\\User\\Desktop\\Handesaim\\ProjectC#\\StudioProject\\Backend\\Dal\\models\\DatabaseManager.cs",
+              "DocumentMoniker": "H:\\ProjectC#\\StudioProject\\Backend\\Dal\\models\\DatabaseManager.cs",
               "RelativeDocumentMoniker": "Dal\\models\\DatabaseManager.cs",
-              "ToolTip": "C:\\Users\\User\\Desktop\\Handesaim\\ProjectC#\\StudioProject\\Backend\\Dal\\models\\DatabaseManager.cs",
+              "ToolTip": "H:\\ProjectC#\\StudioProject\\Backend\\Dal\\models\\DatabaseManager.cs",
               "RelativeToolTip": "Dal\\models\\DatabaseManager.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AQIAAGAAAAAAAAAAAAAgwH0AAAAEAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-28T18:24:42.225Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-28T18:24:42.225Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "H:\\ProjectC#\\StudioProject\\Backend\\Server\\appsettings.json",
+              "RelativeDocumentMoniker": "Server\\appsettings.json",
+              "ToolTip": "H:\\ProjectC#\\StudioProject\\Backend\\Server\\appsettings.json",
+              "RelativeToolTip": "Server\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-04-29T10:04:38.657Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "WorkerForManger.cs",
+              "DocumentMoniker": "H:\\ProjectC#\\StudioProject\\Backend\\BL\\Models\\WorkerForManger.cs",
+              "RelativeDocumentMoniker": "BL\\Models\\WorkerForManger.cs",
+              "ToolTip": "H:\\ProjectC#\\StudioProject\\Backend\\BL\\Models\\WorkerForManger.cs",
+              "RelativeToolTip": "BL\\Models\\WorkerForManger.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-28T22:11:31.645Z"
             }
           ]
         }

@@ -33,10 +33,10 @@ namespace BL.Services
             }
 
             // בדוק אם Phone הוא מספר תקין (10 ספרות)
-            if (client.Phone < 1000000000 || client.Phone > 9999999999)
-            {
-                throw new ArgumentException("Phone number must be a valid 10-digit number.", nameof(client.Phone));
-            }
+            //if (client.Phone < 1000000000 || client.Phone > 999999)
+            //{
+            //    throw new ArgumentException("Phone number must be a valid 10-digit number.", nameof(client.Phone));
+            //}
 
             // בדוק אם Age בטווח תקין
             if (client.Age.HasValue && (client.Age < 0 || client.Age > 120))
@@ -70,10 +70,10 @@ namespace BL.Services
 
         public ClientForManager GetByIdForManager(int id)
         {
-            if (id < 100000000 || id > 999999999)
-            {
-                throw new ArgumentException("Id number must be a valid 10-digit number.", nameof(id)); // לא תקין
-            }
+            //if (id < 100000000 || id > 999999999)
+            //{
+            //    throw new ArgumentException("Id number must be a valid 10-digit number.", nameof(id)); // לא תקין
+            //}
             Client c= _client.GetById(id);
             ClientForManager clientForManager = new ClientForManager() {
                 Id=c.Id,

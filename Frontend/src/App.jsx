@@ -1,18 +1,17 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import './App.css'
-import ClientsList from './components/ClientsList'
+import { useState } from 'react';
+import './App.css';
+import ClientsList from './components/ClientsList';
+import AddClient from './components/AddClient'; // ודא שהנתיב נכון
 
 function App() {
-  const [count, setCount] = useState(0)
+  const [count, setCount] = useState(0);
 
   return (
     <>
-
-       <ClientsList></ClientsList>
+      <AddClient />
+      <ClientsList />
     </>
-  )
+  );
 }
 
-export default App
+export default App;

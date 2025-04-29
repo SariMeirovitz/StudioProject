@@ -20,7 +20,7 @@ public class Startup
         services.AddCors(options =>
         {
             options.AddPolicy("AllowSpecificOrigin",
-                builder => builder.WithOrigins("http://localhost:5176") // החלף בכתובת המתאימה
+                builder => builder.WithOrigins("http://localhost:5174") // החלף בכתובת המתאימה
                                   .AllowAnyMethod()
                                   .AllowAnyHeader());
         });
