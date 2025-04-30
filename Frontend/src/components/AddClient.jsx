@@ -1,7 +1,6 @@
 import React, { useState } from 'react';
-import { useDispatch, useSelector } from 'react-redux'; // ודא שה-import של useSelector קיים
+import { useDispatch, useSelector } from 'react-redux';
 import { addClientAsync } from '../redux/thunk';
-
 
 const AddClient = () => {
     const dispatch = useDispatch();
@@ -26,65 +25,63 @@ const AddClient = () => {
             email,
         };
         
-        const resultAction = await dispatch(addClientAsync(newClient)); // שליחת הקליינט החדש ל-redux
+        const resultAction = await dispatch(addClientAsync(newClient));
         if (addClientAsync.fulfilled.match(resultAction)) {
-            setSuccessMessage('נוסף בהצלחה!'); // הצגת הודעת הצלחה
-            // ניקוי השדות לאחר הוספה
+            setSuccessMessage('נוסף בהצלחה!');
             setId('');
             setFirstName('');
             setLastName('');
             setPhone('');
             setAge('');
             setEmail('');
-            setShowForm(false); // החזרת הטופס למצב סגור
+            setShowForm(false);
         } else {
-            setSuccessMessage(''); // ניקוי הודעת הצלחה אם הייתה שגיאה
+            setSuccessMessage('');
         }
     };
 
     const toggleForm = () => {
-        setShowForm(!showForm); // שינוי מצב התצוגה של הטופס
-        setSuccessMessage(''); // ניקוי הודעת הצלחה אם הטופס נפתח מחדש
+        setShowForm(!showForm);
+        setSuccessMessage('');
     };
 
     return (
-        <div>
+        <div className="container mt-4">
             <h2>Add Client</h2>
-            <button onClick={toggleForm}>
+            <button className="btn btn-primary mb-3" onClick={toggleForm}>
                 {showForm ? 'Cancel' : 'Add Client'}
             </button>
             {showForm && (
-                <form onSubmit={handleSubmit}>
-                      <div>
-                        <label>Id:</label>
-                        <input type="text" value={id} onChange={(e) => setId(e.target.value)} required />
+                <form onSubmit={handleSubmit} className="border p-4 rounded bg-light">
+                    <div className="mb-3">
+                        <label className="form-label">Id:</label>
+                        <input type="text" className="form-control" value={id} onChange={(e) => setId(e.target.value)} required />
                     </div>
-                    <div>
-                        <label>First Name:</label>
-                        <input type="text" value={firstName} onChange={(e) => setFirstName(e.target.value)} required />
+                    <div className="mb-3">
+                        <label className="form-label">First Name:</label>
+                        <input type="text" className="form-control" value={firstName} onChange={(e) => setFirstName(e.target.value)} required />
                     </div>
-                    <div>
-                        <label>Last Name:</label>
-                        <input type="text" value={lastName} onChange={(e) => setLastName(e.target.value)} required />
+                    <div className="mb-3">
+                        <label className="form-label">Last Name:</label>
+                        <input type="text" className="form-control" value={lastName} onChange={(e) => setLastName(e.target.value)} required />
                     </div>
-                    <div>
-                        <label>Phone:</label>
-                        <input type="text" value={phone} onChange={(e) => setPhone(e.target.value)} required />
+                    <div className="mb-3">
+                        <label className="form-label">Phone:</label>
+                        <input type="text" className="form-control" value={phone} onChange={(e) => setPhone(e.target.value)} required />
                     </div>
-                    <div>
-                        <label>Age:</label>
-                        <input type="number" value={age} onChange={(e) => setAge(e.target.value)} />
+                    <div className="mb-3">
+                        <label className="form-label">Age:</label>
+                        <input type="number" className="form-control" value={age} onChange={(e) => setAge(e.target.value)} />
                     </div>
-                    <div>
-                        <label>Email:</label>
-                        <input type="email" value={email} onChange={(e) => setEmail(e.target.value)} />
+                    <div className="mb-3">
+                        <label className="form-label">Email:</label>
+                        <input type="email" className="form-control" value={email} onChange={(e) => setEmail(e.target.value)} />
                     </div>
-                    {error && <p style={{ color: 'red' }}>{error.message || error}</p>} {/* הצגת שגיאה אם קיימת */}
-
-                    <button type="submit">Add Client</button>
+                    {error && <p className="text-danger">{error.message || error}</p>}
+                    <button type="submit" className="btn btn-success">Add Client</button>
                 </form>
             )}
-            {successMessage && <div>{successMessage}</div>} {/* הודעת הצלחה */}
+            {successMessage && <div className="alert alert-success mt-3">{successMessage}</div>}
         </div>
     );
 };
