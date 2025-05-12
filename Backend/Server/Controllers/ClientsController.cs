@@ -42,6 +42,7 @@ namespace StudioServer.Controllers
             clientService.Add(client);
             return client;
         }
+
         [HttpPut]
         public ActionResult<Client> Update([FromBody] Client client)
         {

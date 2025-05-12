@@ -21,11 +21,12 @@ namespace Dal
             ServiceCollection services = new ServiceCollection();
             services.AddSingleton<DatabaseManager>();
             services.AddSingleton<IClient, ClientService>();
+            services.AddSingleton<IWorker, WorkerService>();
             ServiceProvider serviceProvider = services.BuildServiceProvider();
 
 
             Client = serviceProvider.GetService<IClient>();
-      
+            Worker = serviceProvider.GetService<IWorker>();
         }
     }
 }

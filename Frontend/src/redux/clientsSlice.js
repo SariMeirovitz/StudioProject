@@ -1,5 +1,5 @@
-import { createSlice, createAsyncThunk } from "@reduxjs/toolkit";
-import { addClientAsync, fetchDataAsyncAction, handleError } from "./thunk";
+import { createSlice } from "@reduxjs/toolkit";
+import { addClientAsync, fetchDataAsyncAction, handleErrorResponse} from "./thunk";
 
 
 
@@ -26,7 +26,7 @@ extraReducers: (builder) => {
             state.clientsList = action.payload;
         })
         .addCase(fetchDataAsyncAction.rejected, (state, action) => {
-            handleError(state, action);
+            handleErrorResponse(state, action);
             state.clientsList = [];
         })
         .addCase(addClientAsync.pending, (state) => {
@@ -39,7 +39,7 @@ extraReducers: (builder) => {
             state.clientsList.push(action.payload);
         })
         .addCase(addClientAsync.rejected, (state, action) => {
-            handleError(state, action);
+            handleErrorResponse(state, action);
         });
     },
 

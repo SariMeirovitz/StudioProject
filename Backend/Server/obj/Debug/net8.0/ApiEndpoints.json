@@ -74,7 +74,7 @@
   {
     "ContainingType": "StudioServer.Controllers.ClientsController",
     "Method": "GetById",
-    "RelativePath": "api/Clients/id",
+    "RelativePath": "api/Clients/{id}",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
@@ -82,12 +82,12 @@
       {
         "Name": "id",
         "Type": "System.Int32",
-        "IsRequired": false
+        "IsRequired": true
       }
     ],
     "ReturnTypes": [
       {
-        "Type": "System.Collections.Generic.List\u00601[[Dal.models.Client, Dal, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "Type": "Dal.models.Client",
         "MediaTypes": [
           "text/plain",
           "application/json",
@@ -96,5 +96,21 @@
         "StatusCode": 200
       }
     ]
+  },
+  {
+    "ContainingType": "Server.Controllers.UserController",
+    "Method": "Login",
+    "RelativePath": "api/User/Login",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "BL.Models.LoginRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
   }
 ]

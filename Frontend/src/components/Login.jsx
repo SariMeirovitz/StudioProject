@@ -1,58 +1,74 @@
-// import React, { useState } from 'react';
-// import { useDispatch } from 'react-redux';
-// import { loginAsync } from '../redux/thunk'; // הנח שיש לך thunk עבור כניסת משתמש
+import { useDispatch, useSelector } from 'react-redux';
+import { loginUserAsync } from '../redux/thunk';
+import { useNavigate } from 'react-router-dom';
+import { useEffect } from 'react';
 
-// const Login = () => {
-//     const dispatch = useDispatch();
-//     const [email, setEmail] = useState('');
-//     const [password, setPassword] = useState('');
-//     const [error, setError] = useState('');
+const Login = () => {
+    const dispatch = useDispatch();
+    const navigate = useNavigate();
+    const { loading, error, user } = useSelector((state) => state.user);
 
-//     const handleSubmit = async (e) => {
-//         e.preventDefault();
-//         const userCredentials = { email, password };
+    useEffect(() => {
+        // כאשר המשתמש מחובר, נבצע ניווט לאזור האישי
+        if (user) {
+            navigate('/dashboard'); // הנתיב של האזור האישי
+        }
+    }, [user, navigate]);
 
-//         const resultAction = await dispatch(loginAsync(userCredentials));
-//         if (loginAsync.fulfilled.match(resultAction)) {
-//             // הצלחה בכניסה
-//             setEmail('');
-//             setPassword('');
-//             setError('');
-//         } else {
-//             // טיפול בשגיאה
-//             setError('שגיאה בכניסה, אנא נסה שוב.');
-//         }
-//     };
+    const handleLogin = async (e) => {
+        e.preventDefault();
 
-//     return (
-//         <div className="container mt-4">
-//             <h2>Login</h2>
-//             <form onSubmit={handleSubmit} className="border p-4 rounded bg-light">
-//                 <div className="mb-3">
-//                     <label className="form-label">Email:</label>
-//                     <input
-//                         type="email"
-//                         className="form-control"
-//                         value={email}
-//                         onChange={(e) => setEmail(e.target.value)}
-//                         required
-//                     />
-//                 </div>
-//                 <div className="mb-3">
-//                     <label className="form-label">Password:</label>
-//                     <input
-//                         type="password"
-//                         className="form-control"
-//                         value={password}
-//                         onChange={(e) => setPassword(e.target.value)}
-//                         required
-//                     />
-//                 </div>
-//                 {error && <p className="text-danger">{error}</p>}
-//                 <button type="submit" className="btn btn-primary">Login</button>
-//             </form>
-//         </div>
-//     );
-// };
+        const formData = new FormData(e.target);
+        const idNumber = formData.get('idNumber').trim();
+        const name = formData.get('name').trim();
 
-// export default Login;
+        // אימות בסיסי
+        if (idNumber.length !== 9) {
+            alert('מספר הזהות חייב להיות באורך 9 תווים.');
+            return;
+        }
+        if (!name) {
+            alert('יש להזין שם.');
+            return;
+        }
+
+        const credentials = { idNumber, name };
+
+        try {
+            await dispatch(loginUserAsync(credentials));
+
+            // אם ההתחברות הצליחה, נבצע ניווט לדף אחר (לדוגמה, דף "אזור אישי")
+            navigate('/dashboard'); // הנתיב של הדף החדש
+        } catch (err) {
+            console.error('Login error:', err);
+        }
+    };
+
+    return (
+        <form onSubmit={handleLogin}>
+            <input
+                type="text"
+                name="idNumber"
+                placeholder="מספר זהות"
+                required
+                aria-label="מספר זהות"
+                autoFocus
+            />
+            <input
+                type="text"
+                name="name"
+                placeholder="שם"
+                required
+                aria-label="שם"
+            />
+            <button type="submit" disabled={loading}>
+                {loading ? 'טוען...' : 'כניסה'}
+            </button>
+
+            {loading && <div className="spinner">טוען...</div>}
+            {error && <p style={{ color: 'red' }}>{error.message || 'אירעה שגיאה, נסה שוב.'}</p>}
+        </form>
+    );
+};
+
+export default Login;
